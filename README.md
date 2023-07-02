@@ -13,16 +13,26 @@ This is a custom theme for SDDM (Simple Desktop Display Manager) that aims to pr
 
 ## Installation
 
+-For Arch Linux:  
+Just use you favourite aur helper (example with yay):
+```bash
+yay -S sddm-terminal-inspired-theme-git 
+```
+
+-For other linux distros:
 1. Clone or download this repository to your local machine.
 2. Add the execute permission to the file (`sessionsDetector.sh`) in the theme folder (`terminal-inspired`):
     ```bash
     chmod +x sessionsDetector.sh
+    ```
 3. Execute the `sessionsDetector.sh` (p.s: every time that you install a new window manager you will need to do this step): 
     ``` bash
     ./sessionsDetector.sh
+    ```
 4. Move the theme folder (`terminal-inspired`) to the SDDM themes directory (`/usr/share/sddm/themes/`):
     ```bash
     sudo mv terminal-inspired /usr/share/sddm/themes/
+    ```
 
 ## Usage
 
